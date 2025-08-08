@@ -1,0 +1,155 @@
+# GHDB-Tool
+Pagodo GUI — Neo Hacker Edition
+================================
+
+Created by GreenRangerGR
+
+This tool provides a powerful Google Dork scanning interface with a hacker-themed GUI.  
+It is designed for educational and authorized testing purposes ONLY. Misuse may be illegal.
+
+--------------------------------------------------------------------------------
+Features Overview
+--------------------------------------------------------------------------------
+
+1. Category Selection
+   - Pick a category from the dropdown to load related Google Dorks.
+   - Categories are shown with emoji icons for easy recognition.
+   - Special category ★ Favorites shows all your starred dorks.
+
+2. Domain Filtering
+   - Optionally enter a domain to limit Google searches to a specific site.
+   - For example, entering "example.com" will restrict scans to site:example.com.
+
+3. Search Box
+   - Filter dorks by keywords across all categories and favorites.
+   - Useful to quickly find specific dorks.
+
+4. Dork List
+   - Displays dorks for the selected category or search results.
+   - Supports multi-selection (Ctrl+Click or Shift+Click).
+   - Double-click a dork to open a Google search for it (with domain filter applied).
+
+5. Favorites Management
+   - Toggle selected dorks as favorites using the "Toggle Favorite" button or Ctrl+D shortcut.
+   - Favorites are saved and persist between sessions.
+   - Easily access favorites via the category dropdown.
+
+6. Add / Manage Custom Dorks
+   - Add your own custom Google Dorks to any category.
+   - Manage (edit or delete) your custom dorks in a dedicated window.
+   - Custom dorks persist in your user profile.
+
+7. Daily Dork Banner
+   - Shows a random dork suggestion each day with quick "Open" or "Scan" buttons.
+   - Helps you discover new or interesting dorks.
+
+8. Run Scan
+   - Run a Google dork scan on your selected dorks.
+   - The results are logged in a neon-style console area.
+   - Double-click URLs in the log to open them in your browser.
+
+9. Save Scan Results
+   - Save the results of your last scan as a JSON file for later review or sharing.
+
+10. Import / Export / Reset Dorks
+    - Import dorks from a JSON file and merge without duplicates.
+    - Export your full current dork database to JSON.
+    - Reset the dork database to the embedded built-in list.
+
+11. Theme Support
+    - Switch between available UI themes for a customized look.
+    - Applies to all controls and windows dynamically.
+
+12. Right-Click Context Menu on Dork List
+    - Right-click a dork to open, copy, toggle favorite, or run a quick scan on it.
+
+13. Centered ASCII Art Disclaimer Banner
+    - Shown on startup.
+    - Includes a stylized Neo Hacker helmet ASCII art.
+    - User must click "I Understand" to proceed.
+
+--------------------------------------------------------------------------------
+Getting Started — Step by Step
+--------------------------------------------------------------------------------
+
+1. Launch the application (PagodoGUI.exe or run pagodo_gui.py).
+
+2. Read and acknowledge the startup disclaimer banner.
+
+3. Select a category from the dropdown.  
+   - Try ★ Favorites or "🗂️ Google Dorks" to start.
+
+4. Optionally enter a domain (e.g., example.com) to restrict search results.
+
+5. Click "Load Dorks" to populate the list.
+
+6. Use the Search box to filter dorks by keywords.
+
+7. Select one or more dorks by clicking or using Ctrl/Shift for multiple selections.
+
+8. Double-click a dork to open a Google search in your browser.
+
+9. To run a scan on selected dorks:  
+   - Click "Run Scan" or press Ctrl+R.  
+   - Results will show in the bottom log area.
+
+10. To save results, click "Save Results" and choose a file.
+
+11. To add a custom dork:  
+    - Select a real category (not Favorites).  
+    - Click "Add Dork" and enter the dork string.
+
+12. Manage your custom dorks:  
+    - Go to Tools > Manage Dorks.  
+    - Edit or delete entries as needed.
+
+13. Toggle favorites:  
+    - Select dorks and press Ctrl+D or use the Tools menu.
+
+14. Use the daily dork banner to discover new dorks or quickly open/scan them.
+
+15. Use Import/Export to backup or share your dork collections.
+
+16. Reset to embedded to discard all changes and restore original dorks.
+
+--------------------------------------------------------------------------------
+Keyboard Shortcuts
+--------------------------------------------------------------------------------
+
+- Ctrl+D : Toggle favorite for selected dorks
+- Ctrl+F : Focus search box
+- Ctrl+R : Run scan on selected dorks
+- Ctrl+E : Export all dorks to JSON
+
+--------------------------------------------------------------------------------
+Tips & Notes
+--------------------------------------------------------------------------------
+
+- Favorites help you keep track of your go-to dorks.
+- Use domain filtering to target specific websites.
+- Custom dorks let you tailor your toolkit to your needs.
+- The embedded dork list is extensive but can be expanded via import.
+- Double-click URLs in the log to open them easily.
+- The app stores user data in your system config folder (see About for path).
+
+--------------------------------------------------------------------------------
+Legal & Safety
+--------------------------------------------------------------------------------
+
+This tool is designed strictly for educational, research, and authorized security testing.  
+Do NOT scan systems without explicit permission. Unauthorized scanning is illegal.  
+The author assumes no liability for misuse.
+
+--------------------------------------------------------------------------------
+Contact & Support
+--------------------------------------------------------------------------------
+
+Email: kurasaki2010@gmail.com  
+Twitter: @GreenRangerGR  
+GitHub: https://github.com/GreenRangerGR
+
+--------------------------------------------------------------------------------
+
+Thank you for using Pagodo GUI Neo Hacker Edition!  
+Happy and safe hunting!
+
