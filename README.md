@@ -145,8 +145,6 @@ Contact & Support
 --------------------------------------------------------------------------------
 
 Email: kurasaki2010@gmail.com  
-Twitter: @GreenRangerGR  
-GitHub: https://github.com/GreenRangerGR
 
 --------------------------------------------------------------------------------
 
